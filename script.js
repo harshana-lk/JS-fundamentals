@@ -9,8 +9,8 @@ console.log(let);
 
 // Variable Declaration(Wrong Methods)-----------------------------
 
-let 3olivia = "Jayaweera";
-
-let Harshana&Jayaweeara = "1234";
+// let 3olivia = "Jayaweera";
+//
+// let Harshana&Jayaweeara = "1234";
 
 // ----------------------------------------------------------------
