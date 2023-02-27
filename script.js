@@ -41,3 +41,21 @@ console.log(typeof bigIntValue);
 // ==> Dinamic Variable
 javascriptIsFun = "OG";
 console.log(typeof javascriptIsFun);
+
+
+// Let,Const,Var VAriable declaration
+
+// ==>Mutable Variable(LET)
+// we can change the value
+let fName = "Harshana";
+fName = "jayaweeara";
+
+// ==>Mutable Variable(VAR)
+// we can change the value
+var sName = "hansika";
+sName = "Sewwandi";
+
+// ==>Immutable Variable(Const)
+// we can't change the value
+const lName = "Jayaweera";
+lName = "Dissanayaka";
