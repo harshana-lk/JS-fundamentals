@@ -106,22 +106,29 @@ const job = "Student";
 const birthYear = 2000;
 const nowYear = 2023;
 
-const Harshana =
-  "I'm " + myName + " ,a " + (nowYear - birthYear) + " Years old " + job;
+const Harshana = "I'm " + myName + " ,a " + (nowYear - birthYear) + " Years old " + job;
 console.log(Harshana);
 
-console.log(
-  "String With \n\
+console.log("String With \n\
 Mutiple \n\
-Lines"
-);
+Lines");
 
 // With Template String
-const newHarshana = `I'm ${myName} ,a ${
-  nowYear - birthYear
-} Years Old ${job} !`;
+const newHarshana = `I'm ${myName} ,a ${nowYear - birthYear} Years Old ${job} !`;
 console.log(newHarshana);
 
 console.log(`String with 
 Multiple 
 Lines`);
+
+// ==> If Else Statement Handling----------------------------------------------------------------------------------------------------
+
+const ageOfMine = 15;
+const isOldEnough = ageOfMine >= 18;
+
+if (isOldEnough) {
+    console.log(`You are able to drive the car 🚗`);
+} else {
+    const yearsLeft = 18 - ageOfMine;
+    console.log(`You are not able to drive the car 🚗 please wait another ${yearsLeft} years !`)
+}
