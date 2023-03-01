@@ -56,19 +56,19 @@ sName = "Sewwandi";
 
 // ==>Immutable Variable(Const)
 // we can't change the value
-const lName = "Jayaweera";
-lName = "Dissanayaka";
+// const lName = "Jayaweera";
+// lName = "Dissanayaka";
 
 // ==> Operators-------------------------------------------------------------------------------------------------------------------
 
 // Subtraction
-const now = 2023;
-const myAge = now - 2000;
+let now = 2023;
+let myAge = now - 2000;
 console.log(myAge);
 
 // Addition
-const salary = 50000.0;
-const nowSalary = salary + 5000;
+let salary = 50000.0;
+let nowSalary = salary + 5000;
 console.log(nowSalary);
 
 now += 200;
@@ -98,4 +98,30 @@ console.log(first_name + "" + last_name);
 const isNetSalary = nowSalary > salary;
 console.log(isNetSalary);
 
+//==> Template Literals-------------------------------------------------------------------------------------------------------------
 
+// This is without Template String
+const myName = "Harshana";
+const job = "Student";
+const birthYear = 2000;
+const nowYear = 2023;
+
+const Harshana =
+  "I'm " + myName + " ,a " + (nowYear - birthYear) + " Years old " + job;
+console.log(Harshana);
+
+console.log(
+  "String With \n\
+Mutiple \n\
+Lines"
+);
+
+// With Template String
+const newHarshana = `I'm ${myName} ,a ${
+  nowYear - birthYear
+} Years Old ${job} !`;
+console.log(newHarshana);
+
+console.log(`String with 
+Multiple 
+Lines`);
