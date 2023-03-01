@@ -171,16 +171,41 @@ console.log(num);
 //5 falsy values => 0 , '' , undefined , null , Nan
 
 console.log(Boolean(0));
-console.log(Boolean(''));
-console.log(Boolean("Harshana"));//truthy value
+console.log(Boolean(""));
+console.log(Boolean("Harshana")); //truthy value
 console.log(Boolean(undefined));
 console.log(Boolean(NaN));
 console.log(Boolean(null));
 console.log(Boolean({})); //truthy value
 
 const money = 0;
-if (money){
+if (money) {
   console.log("Dont spend it all");
-}else{
+} else {
   console.log("You have to find a job");
+}
+
+// ==> Equality Operator-----------------------------------------------------------------------------------------------------------
+
+const age = "18";
+if (age === 18) console.log("You are allowed to get the license (Strict)"); //Strict Equality Operator
+
+if (age == 18) console.log("You are allowed to get the license (Loose)"); //Lose Equality Operator
+
+const fav = prompt("What Is your Favorite Number ? ");
+
+console.log(fav);
+console.log(typeof fav);
+
+if (fav === 23) {
+  console.log("23 is a cool number");
+} else if (fav === 7) {
+  console.log("7 is also a cool number");
+} else {
+  console.log("You are a fool");
+}
+
+// Strict non equality Operator
+if (fav !== 23) { 
+  console.log("Why not 23 ?");
 }
