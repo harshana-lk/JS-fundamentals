@@ -106,15 +106,20 @@ const job = "Student";
 const birthYear = 2000;
 const nowYear = 2023;
 
-const Harshana = "I'm " + myName + " ,a " + (nowYear - birthYear) + " Years old " + job;
+const Harshana =
+  "I'm " + myName + " ,a " + (nowYear - birthYear) + " Years old " + job;
 console.log(Harshana);
 
-console.log("String With \n\
-Mutiple \n\
-Lines");
+console.log(
+  "String With \n\
+Multiple \n\
+Lines"
+);
 
 // With Template String
-const newHarshana = `I'm ${myName} ,a ${nowYear - birthYear} Years Old ${job} !`;
+const newHarshana = `I'm ${myName} ,a ${
+  nowYear - birthYear
+} Years Old ${job} !`;
 console.log(newHarshana);
 
 console.log(`String with 
@@ -127,8 +132,37 @@ const ageOfMine = 15;
 const isOldEnough = ageOfMine >= 18;
 
 if (isOldEnough) {
-    console.log(`You are able to drive the car 🚗`);
+  console.log(`You are able to drive the car 🚗`);
 } else {
-    const yearsLeft = 18 - ageOfMine;
-    console.log(`You are not able to drive the car 🚗 please wait another ${yearsLeft} years !`)
+  const yearsLeft = 18 - ageOfMine;
+  console.log(
+    `You are not able to drive the car 🚗 please wait another ${yearsLeft} years !`
+  );
 }
+
+// ==> Type Conversion & Type Coercion-----------------------------------------------------------------------------------------------
+
+// Type Conversion
+const inputYear = "2000";
+console.log(inputYear, Number(inputYear));
+console.log(Number(inputYear) + 20);
+
+// Type Coercion
+const coercion = "My Age Is :" + 23;
+console.log(coercion);
+
+// in this case string values are converted to Number Format
+console.log("23" - "10" - 3);
+
+console.log("23" * 3);
+
+console.log("34" / 2);
+
+console.log("34" > "24");
+
+// in this case ("1" + 1) is equals to 11 (because of + operator)
+let num = "1" + 1;
+// then  (in this case (n-=1) equals to 10 (because of - operator))
+n -= 1;
+console.log(num);
+
