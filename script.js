@@ -163,6 +163,24 @@ console.log("34" > "24");
 // in this case ("1" + 1) is equals to 11 (because of + operator)
 let num = "1" + 1;
 // then  (in this case (n-=1) equals to 10 (because of - operator))
-n -= 1;
+num -= 1;
 console.log(num);
 
+//==>Truthy & Falsy Values---------------------------------------------------------------------------------------------------------
+
+//5 falsy values => 0 , '' , undefined , null , Nan
+
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean("Harshana"));//truthy value
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean(null));
+console.log(Boolean({})); //truthy value
+
+const money = 0;
+if (money){
+  console.log("Dont spend it all");
+}else{
+  console.log("You have to find a job");
+}
