@@ -273,14 +273,24 @@
 //     console.log("Invalid Day");
 // }
 
-// ==>Expressions
-3 + 4;
-2000;
-true && false && !true;
-console.log(`I'm ${2023 - 2000} years old Student`);
+// // ==>Expressions
+// 3 + 4;
+// 2000;
+// true && false && !true;
+// console.log(`I'm ${2023 - 2000} years old Student`);
 
-// ==>Statements
-if (10 > 5) {
-  const str = "Nothing";
-  console.log(str);
-}
+// // ==>Statements
+// if (10 > 5) {
+//   const str = "Nothing";
+//   console.log(str);
+// }
+
+const age = 23;
+age >= 18
+  ? console.log("I like to drink wine 🍷")
+  : console.log("I like drink water 💧");
+
+const drink = age >= 18 ? "Wine 🍷" : "Water 💧";
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? "Wine 🍷" : "Water 💧"}`);
