@@ -210,42 +210,65 @@
 //   console.log("Why not 23 ?");
 // }
 
-const hasDrivingLicence = true;
-const hasGoodVision = true;
+// const hasDrivingLicence = true;
+// const hasGoodVision = true;
+//
+// console.log(hasDrivingLicence && hasGoodVision);
+// console.log(hasDrivingLicence || hasGoodVision);
+// console.log(hasDrivingLicence && !hasGoodVision);
+// console.log(hasDrivingLicence || !hasGoodVision);
+//
+// if (hasDrivingLicence && hasGoodVision) {
+//   console.log("Sarah is able to drive 🚗");
+// } else {
+//   console.log("Sarah is not able to drive 🚗");
+// }
+//
+// const isTired = true;
+//
+// if (hasDrivingLicence && hasGoodVision && isTired) {
+//   console.log("Sarah is able to Drive Now 🚗");
+// } else {
+//   console.log("Sarah is not able to drive yet 🚗");
+// }
+//
+// if (hasDrivingLicence && hasGoodVision && !isTired) {
+//   console.log("Sarah is able to Drive Now 🚗");
+// } else {
+//   console.log("Sarah is not able to drive yet 🚗");
+// }
+//
+// if (hasDrivingLicence || hasGoodVision || isTired) {
+//   console.log("Sarah is able to Drive Now 🚗");
+// } else {
+//   console.log("Sarah is not able to drive yet 🚗");
+// }
+//
+// if (hasDrivingLicence || hasGoodVision || !isTired) {
+//   console.log("Sarah is able to Drive Now 🚗");
+// } else {
+//   console.log("Sarah is not able to drive yet 🚗");
+// }
 
-console.log(hasDrivingLicence && hasGoodVision);
-console.log(hasDrivingLicence || hasGoodVision);
-console.log(hasDrivingLicence && !hasGoodVision);
-console.log(hasDrivingLicence || !hasGoodVision);
-
-if (hasDrivingLicence && hasGoodVision) {
-  console.log("Sarah is able to drive 🚗");
-} else {
-  console.log("Sarah is not able to drive 🚗");
-}
-
-const isTired = true;
-
-if (hasDrivingLicence && hasGoodVision && isTired) {
-  console.log("Sarah is able to Drive Now 🚗");
-} else {
-  console.log("Sarah is not able to drive yet 🚗");
-}
-
-if (hasDrivingLicence && hasGoodVision && !isTired) {
-  console.log("Sarah is able to Drive Now 🚗");
-} else {
-  console.log("Sarah is not able to drive yet 🚗");
-}
-
-if (hasDrivingLicence || hasGoodVision || isTired) {
-  console.log("Sarah is able to Drive Now 🚗");
-} else {
-  console.log("Sarah is not able to drive yet 🚗");
-}
-
-if (hasDrivingLicence || hasGoodVision || !isTired) {
-  console.log("Sarah is able to Drive Now 🚗");
-} else {
-  console.log("Sarah is not able to drive yet 🚗");
+const day = "Wednesday";
+switch (day) {
+  case "Monday":
+    console.log("ORM Lecture Videos");
+    break;
+  case "Tuesday":
+    console.log("Watch hibernate Videos");
+    break;
+  case "Wednesday":
+  case "Thursday":
+    console.log("Watch Spring Videos");
+    break;
+  case "Friday":
+  case "Saturday":
+    console.log("Watch React Lectures");
+    break;
+  case "Sunday":
+    console.log("Do nothing , just enjoy");
+    break;
+  default:
+    console.log("Invalid Day");
 }
