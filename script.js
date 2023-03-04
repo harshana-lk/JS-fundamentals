@@ -250,25 +250,37 @@
 //   console.log("Sarah is not able to drive yet 🚗");
 // }
 
-const day = "Wednesday";
-switch (day) {
-  case "Monday":
-    console.log("ORM Lecture Videos");
-    break;
-  case "Tuesday":
-    console.log("Watch hibernate Videos");
-    break;
-  case "Wednesday":
-  case "Thursday":
-    console.log("Watch Spring Videos");
-    break;
-  case "Friday":
-  case "Saturday":
-    console.log("Watch React Lectures");
-    break;
-  case "Sunday":
-    console.log("Do nothing , just enjoy");
-    break;
-  default:
-    console.log("Invalid Day");
+// const day = "Wednesday";
+// switch (day) {
+//   case "Monday":
+//     console.log("ORM Lecture Videos");
+//     break;
+//   case "Tuesday":
+//     console.log("Watch hibernate Videos");
+//     break;
+//   case "Wednesday":
+//   case "Thursday":
+//     console.log("Watch Spring Videos");
+//     break;
+//   case "Friday":
+//   case "Saturday":
+//     console.log("Watch React Lectures");
+//     break;
+//   case "Sunday":
+//     console.log("Do nothing , just enjoy");
+//     break;
+//   default:
+//     console.log("Invalid Day");
+// }
+
+// ==>Expressions
+3 + 4;
+2000;
+true && false && !true;
+console.log(`I'm ${2023 - 2000} years old Student`);
+
+// ==>Statements
+if (10 > 5) {
+  const str = "Nothing";
+  console.log(str);
 }
